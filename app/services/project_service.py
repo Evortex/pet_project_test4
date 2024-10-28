@@ -6,7 +6,7 @@ from schemas import project_dto
 from models.project import Project
 
 # Устанавливаем API-ключ OpenAI, получаем его из переменной окружения API_KEY.
-openai.api_key = "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"
+openai.api_key = "OPENAI_API_KEY"
 # Устанавливаем модель OpenAI, в данном случае используем gpt-3.5-turbo.
 model_engine = "gpt-3.5-turbo"
 # Конец
