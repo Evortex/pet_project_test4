@@ -15,7 +15,7 @@ openai = "*"
 2. Поскольку ключ ты уже сгенерировал, давай сразу присвоим его переменной.
 Открой [project_service.py](app/services/project_service.py), на строке 10 присвой полученный ключ переменной API_KEY.
 ```
-= "sk-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"
+ = "OPENAI_API_KEY"
 ```
 
 3. А теперь укажи модель GPT, которую мы будем использовать, на строке 12.
